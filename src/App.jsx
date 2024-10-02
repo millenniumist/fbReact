@@ -1,11 +1,11 @@
 
-function App() {
+import HomePage from "./pages/home/HomePage";
+import AppRouter from "./router/AppRouter";
 
+function App() {
   return (
-    <>
-      <button className="btn">Test</button>
-    </>
-  )
+    <AppRouter />
+  );
 }
 
-export default App
+export default App;
