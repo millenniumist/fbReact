@@ -10,6 +10,7 @@ import {
   SearchIcon,
   ShopIcon,
 } from "../icons";
+import Avatar from "./components/Avatar";
 const Header = () => {
   return (
     <header className=" h-14 w-full  fixed top-0 z-10 px-1 flex justify-between shadow-lg bg-white ">
@@ -52,11 +53,12 @@ const Header = () => {
 
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className=" m-1 h-2 ">
-            <div className="avatar">
+            {/* <div className="avatar">
               <div className="w-10 rounded-full">
                 <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
               </div>
-            </div>
+            </div> */}
+            <Avatar className="w-11 rounded-full"  />
           </div>
           <ul
             tabIndex={0}

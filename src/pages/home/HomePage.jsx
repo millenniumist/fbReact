@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
-import LeftSideBar from "./components/LeftSideBar";
-import RightSideBar from "./components/RightSideBar";
-import Body from "./components/Body";
+import Header from "./containers/Header";
+import LeftSideBar from "./containers/LeftSideBar";
+import RightSideBar from "./containers/RightSideBar";
+import Body from "./containers/Body";
 const HomePage = () => {
   return (
     <div className="min-h-screen ">
